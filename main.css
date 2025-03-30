@@ -1,0 +1,140 @@
+body{
+  background-color: #F1DDD7;
+}
+
+.front-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.heading{
+  color: #b66964;
+  font-family: "Italianno", cursive;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+  transition: 0.2s ease-out;
+  text-align: center ;
+}
+
+.heading:hover{
+  transform: scale(1.3); 
+  text-shadow: 0 0 10px #e5a39d, 0 0 20px #d89088, 0 0 30px #c77870;
+}
+
+.sub-text{
+  color: #bd6a65;
+  text-align: center;
+  font-family: "Handlee", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.scroll-text{
+  margin-top: 150px;
+  color: #ab615b;
+  font-family: "Handlee", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.movie-card{
+  background-color: #F1DDD7;
+  margin-top: 127px;
+  margin:126px 0px 0px 0px;
+  padding-top: 30px;
+  width: 100%;
+  height: 2000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 10px;
+}
+
+@media(max-width:750px){
+  .movie-card{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width:750px){
+  .movie-card{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(min-width:1000px){
+  .movie-card{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.movie-preview{
+  width: 400px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #efa7a2 0%, #ebb 100%);
+  margin-left: 25px;
+  height: 850px;
+  vertical-align: top;
+  vertical-align: bottom;
+  margin-top: 30px;
+  transition: 0.3s ease-in-out;
+}
+
+.movie-preview:hover{
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px #c46b63, 0 0 20px #c95a4e, 0 0 30px #c77870;
+}
+
+.thumbnail{
+  width: 80%;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.movie-description{
+  text-align: center;
+  margin: 20px 20px 0px 20px;
+  color: #57432c;
+  text-align: center;
+  font-family: "Jacques Francois";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.know-more{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.know-more-button{
+  border-radius: 8px;
+  background: #ca8984;
+  width: 268px;
+  height: 59px;
+  flex-shrink: 0;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: "Jacques Francois";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

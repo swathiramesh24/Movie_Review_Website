@@ -1,0 +1,54 @@
+body{
+  background-color: #F1DDD7;
+  color: #c8706a;
+  font-weight: 500;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  margin-bottom: 100px;
+  line-height: 30px;
+}
+
+p{
+  text-align: justify;
+}
+
+.header{
+  font-family: "Italianno", cursive;
+  font-size: 55px;
+  text-decoration: underline;
+  margin-top: 30px;
+}
+
+.movie-details{
+  margin-bottom: 50px;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.plot-summary, .performance, .image img, .direction, .cinema, .final{
+  margin-bottom: 30px;
+}
+
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img{
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+
+.video-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
